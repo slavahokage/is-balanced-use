@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "41d17bc05f77fd66ca81049ad072b8e6",
+    "packages": [
+        {
+            "name": "vyacheslav/is-balanced-function",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slavahokage/is-balanced.git",
+                "reference": "cf72fa1b4cf706cffed2ae78db69a1daff28b390"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slavahokage/is-balanced/zipball/cf72fa1b4cf706cffed2ae78db69a1daff28b390",
+                "reference": "cf72fa1b4cf706cffed2ae78db69a1daff28b390",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/is-balanced-function.php",
+                    "bin/is-balanced-cli.php"
+                ],
+                "psr-4": {
+                    "BalanceChecker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "slavahokage",
+                    "email": "slava123smirnov@gmail.com"
+                }
+            ],
+            "description": "isBalanced is a function that check if input string has balanced square brackets",
+            "time": "2019-08-08T12:33:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "vyacheslav/is-balanced-function": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
